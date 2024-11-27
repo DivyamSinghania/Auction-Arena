@@ -15,41 +15,24 @@ body{
     margin-left: -20px;
 }
 nav{
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid grey;
-    padding-left: 10px;
-    padding-right: 100px;
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-top: -20px;
     background-color: #0d1117;
-}
-#navbut{
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 5px;
+    margin-left: 0.3125rem;
+    margin-right: 0.3125rem;
+    border-bottom: 0.065rem solid grey;
     color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 1.25rem;
+}
 
-}
-.navbuttons{
-    font-size: 20px;
-    cursor: pointer;
-    color: white;
-    margin-top: 35px;
-    padding: 15px;
-    padding-top: 0px;
-    text-decoration-line: none;
-}
-.navbuttons:hover{
+.nav-link:hover{
     color: rgb(172, 172, 172);
+}
+.navbar-toggler{
+    width: 3.5rem;
+    color: white;
+    border: 0.06rem solid white;
 }
 .auction-card{
     background-color: #0d1117;
